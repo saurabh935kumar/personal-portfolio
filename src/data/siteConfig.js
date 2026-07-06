@@ -25,9 +25,8 @@ export const siteConfig = {
   phone: "+91 8924885818",
   socials: {
     github: "https://github.com/saurabh935kumar",
-    linkedin: "https://www.linkedin.com/in/saurabh-kumar-0539962b6 ",
-    twitter: "https://twitter.com/saurabhkumar",
-    instagram: "https://instagram.com/saurabhkumar",
+    linkedin: "linkedin.com/in/saurabh-kumar-0539962b6 ",
+
   },
   resumeUrl: "/skresume.pdf",
   profileImage: null, // set to an image path/URL to replace the placeholder
