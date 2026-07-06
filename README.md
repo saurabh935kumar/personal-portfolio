@@ -1,3 +1,4 @@
+
 # Saurabh Kumar — Portfolio
 
 A dark-themed, glassmorphic developer portfolio built with React + Vite. Designed around a
@@ -72,4 +73,7 @@ All colors live as CSS variables in `src/styles/tokens.css` (`--accent-blue`, `-
 - Scroll-reveal and progress-bar animations use `IntersectionObserver`, no animation library.
 - Respects `prefers-reduced-motion`.
 - The contact form currently simulates a submit (see the `TODO` in `Contact.jsx`'s `handleSubmit`)
-  — wire it up to your email service of choice (Formspree, EmailJS, or your own API route).
+  — wire it up to your email service of choice (Formspree, EmailJS, or your own API route)git add README.md
+git commit -m "resolve merge conflict"
+git push
+
