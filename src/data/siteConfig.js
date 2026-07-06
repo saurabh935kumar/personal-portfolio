@@ -26,7 +26,7 @@ export const siteConfig = {
   socials: {
     github: "https://github.com/saurabh935kumar",
     linkedin: "linkedin.com/in/saurabh-kumar-0539962b6 ",
-    
+
   },
   resumeUrl: "/skresume.pdf",
   profileImage: null, // set to an image path/URL to replace the placeholder

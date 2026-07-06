@@ -8,8 +8,7 @@ function Footer() {
   const socialLinks = [
     { icon: <FiGithub />, href: siteConfig.socials.github, label: "GitHub" },
     { icon: <FiLinkedin />, href: siteConfig.socials.linkedin, label: "LinkedIn" },
-    { icon: <FiTwitter />, href: siteConfig.socials.twitter, label: "Twitter" },
-    { icon: <FiInstagram />, href: siteConfig.socials.instagram, label: "Instagram" },
+    
   ];
 
   const scrollToTop = () => {
