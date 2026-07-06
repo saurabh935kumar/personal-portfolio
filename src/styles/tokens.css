@@ -1,0 +1,92 @@
+/* ============================================================
+   DESIGN TOKENS
+   Subject: developer portfolio. Palette leans navy/code-editor
+   rather than generic dark-mode, with blue→violet as the single
+   gradient signature carried through accents, borders, and glow.
+   ============================================================ */
+
+:root {
+  /* --- Color: base surfaces --- */
+  --bg-void: #060a14;
+  --bg-base: #0a0f1f;
+  --bg-elevated: #0d1426;
+  --bg-card: rgba(17, 24, 46, 0.55);
+  --bg-card-solid: #111530;
+
+  /* --- Color: accents --- */
+  --accent-blue: #5b8cff;
+  --accent-blue-soft: #7ea4ff;
+  --accent-violet: #a78bfa;
+  --accent-violet-soft: #c4b1fb;
+  --accent-mint: #6fe3c4;
+  --gradient-primary: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-violet) 100%);
+  --gradient-primary-diag: linear-gradient(120deg, #4f7bff 0%, #8b6bf0 50%, #b083f5 100%);
+  --gradient-text: linear-gradient(135deg, #8fb0ff 0%, #c9b5fb 60%, #e3c2f5 100%);
+
+  /* --- Color: text --- */
+  --text-primary: #eef1fb;
+  --text-secondary: #aab3d1;
+  --text-muted: #6b7494;
+  --text-on-accent: #060a14;
+
+  /* --- Color: borders / lines --- */
+  --border-subtle: rgba(150, 165, 220, 0.14);
+  --border-strong: rgba(160, 175, 230, 0.28);
+  --border-glow: rgba(123, 140, 255, 0.45);
+
+  /* --- Typography --- */
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* --- Type scale --- */
+  --fs-h1: clamp(2.6rem, 6vw, 4.6rem);
+  --fs-h2: clamp(2rem, 4vw, 3rem);
+  --fs-h3: clamp(1.3rem, 2.4vw, 1.8rem);
+  --fs-body-lg: clamp(1.05rem, 1.4vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-mono: 0.85rem;
+
+  /* --- Spacing --- */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.75rem;
+  --space-lg: 3rem;
+  --space-xl: 5rem;
+  --space-2xl: 8rem;
+
+  /* --- Radius --- */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* --- Shadow / glow --- */
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 10px 40px rgba(5, 8, 20, 0.5);
+  --glow-blue: 0 0 40px rgba(91, 140, 255, 0.25);
+  --glow-violet: 0 0 40px rgba(167, 139, 250, 0.22);
+
+  /* --- Layout --- */
+  --max-width: 1200px;
+  --nav-height: 76px;
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 0.2s;
+  --t-base: 0.4s;
+  --t-slow: 0.7s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

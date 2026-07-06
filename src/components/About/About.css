@@ -1,0 +1,57 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: var(--space-md);
+  align-items: start;
+}
+
+.about__bio-col,
+.about__side-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.about__card {
+  padding: var(--space-md) var(--space-md);
+}
+
+.about__card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.7em;
+  position: relative;
+  padding-left: 1em;
+}
+
+.about__card-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 3px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-primary);
+}
+
+.about__card p {
+  font-size: var(--fs-body);
+  line-height: 1.7;
+}
+
+.about__card p strong {
+  color: var(--accent-blue-soft);
+  font-weight: 600;
+}
+
+.about__interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+
+@media (max-width: 860px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
