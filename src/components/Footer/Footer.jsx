@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiArrowUp } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiArrowUp } from "react-icons/fi";
 import { siteConfig } from "../../data/siteConfig";
 import "./Footer.css";
 
