@@ -25,7 +25,7 @@ export const siteConfig = {
   phone: "+91 8924885818",
   socials: {
     github: "https://github.com/saurabh935kumar",
-    linkedin: "linkedin.com/in/saurabh-kumar-0539962b6 ",
+    linkedin: "https://www.linkedin.com/in/saurabh-kumar-0539962b6/",
 
   },
   resumeUrl: "/skresume.pdf",
